@@ -10,8 +10,7 @@ cask "inlaut" do
     "-en"
   end
 
-  url "https://github.com/tobymarks/inlaut/releases/download/v#{version}/Inlaut-#{version}#{language}.dmg",
-      verified: "github.com/tobymarks/inlaut/"
+  url "https://github.com/tobymarks/inlaut/releases/download/v#{version}/Inlaut-#{version}#{language}.dmg"
   name "inlaut"
   desc "Menu bar dictation with on-device speech recognition for German and English"
   homepage "https://inlaut.de/en"
@@ -23,7 +22,7 @@ cask "inlaut" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Inlaut.app"
 
