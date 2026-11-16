@@ -1,12 +1,12 @@
 cask "inlaut" do
-  version "0.6.0"
+  version "0.6.1"
 
   language "de" do
-    sha256 "3a2de8f3fecf872b86b288d44cf1c01e8b868b504ad956e73f4e529e9b44c5ca"
+    sha256 "2ada62410859c87bdffd72426196e9d6d88ae9a9aadc0f40df3db0e43a872f64"
     ""
   end
   language "en", default: true do
-    sha256 "6b3902c479e0c23dbabb294ae456a430a1992ad68fb1f2bef403aa8819b26aa6"
+    sha256 "bbdab3cd576c3040287d33854f2519d00421187dd347e1566d95e22341229f4d"
     "-en"
   end
 
